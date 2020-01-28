@@ -37,7 +37,7 @@ if __name__ == '__main__':
     fo.close()
 
 
-def saveToFile(str, name):
+def save_to_file(str, name):
     # 打开文件
     # str = "abc"
     fo = open(name + ".txt", "w")

@@ -20,10 +20,10 @@ def merge_sort(a, l, r):
     while j <= r:
         t.append(a[j])
         j = j + 1
-    a[l:r+1] = t
+    a[l:r + 1] = t
     return a
 
 
 if __name__ == '__main__':
-    a = [10, 2, 5, 7, 1, 6, 4, 3, 9 ,8, 11, 15, 20, 18, 12, 14, 13, 19, 17]
+    a = [10, 2, 5, 7, 1, 6, 4, 3, 9, 8, 11, 15, 20, 18, 12, 14, 13, 19, 17]
     print(merge_sort(a, 0, len(a) - 1))
